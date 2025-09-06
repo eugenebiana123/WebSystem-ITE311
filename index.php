@@ -39,17 +39,17 @@ if (getcwd() . DIRECTORY_SEPARATOR !== FCPATH) {
  *---------------------------------------------------------------
  * BOOTSTRAP THE APPLICATION
  *---------------------------------------------------------------
- * This process sets up the path constants, loads and registers
- * our autoloader, along with Composer's, loads our constants
- * and fires up an environment-specific bootstrapping.
  */
 
 // LOAD OUR PATHS CONFIG FILE
 $pathsPath = realpath(FCPATH . 'app/Config/Paths.php');
 require $pathsPath;
 
-// Instantiate the Paths class (ito yung kulang kanina)
+// Instantiate the Paths class
 $paths = new Config\Paths();
+
+// FIXED: Load Composer autoloader (para hindi mag-error)
+require FCPATH . 'vendor/autoload.php';
 
 // LOAD THE FRAMEWORK BOOTSTRAP FILE
 require $paths->systemDirectory . '/Boot.php';

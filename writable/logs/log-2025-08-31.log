@@ -1,0 +1,78 @@
+CRITICAL - 2025-08-31 11:32:52 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 189.
+ 1 SYSTEMPATH\Boot.php(350): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-31 11:32:58 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 189.
+ 1 SYSTEMPATH\Boot.php(350): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-31 11:32:58 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 189.
+ 1 SYSTEMPATH\Boot.php(350): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-31 11:32:59 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 189.
+ 1 SYSTEMPATH\Boot.php(350): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-31 11:32:59 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 189.
+ 1 SYSTEMPATH\Boot.php(350): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-31 11:33:00 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 189.
+ 1 SYSTEMPATH\Boot.php(350): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-31 11:33:13 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 189.
+ 1 SYSTEMPATH\Boot.php(350): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-31 11:33:14 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 189.
+ 1 SYSTEMPATH\Boot.php(350): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-31 11:33:14 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 189.
+ 1 SYSTEMPATH\Boot.php(350): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-31 11:33:57 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 189.
+ 1 SYSTEMPATH\Boot.php(350): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-31 11:34:12 --> Error: Class "Locale" not found
+[Method: GET, Route: template]
+in SYSTEMPATH\CodeIgniter.php on line 189.
+ 1 SYSTEMPATH\Boot.php(350): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-31 11:34:16 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 189.
+ 1 SYSTEMPATH\Boot.php(350): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-31 11:34:56 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 189.
+ 1 SYSTEMPATH\Boot.php(350): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
