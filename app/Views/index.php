@@ -1,46 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?= isset($title) ? $title : 'MyPortal' ?></title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f7b245fa;
+        }
+        
+        .top-header {
+            background-color: #f7b245fa;
+            color: white;
+            padding: 1rem 0;
+        }
+        
+        .site-title {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin: 0;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            margin: 0;
+            list-style: none;
             padding: 0;
         }
-        nav {
-            display: flex;
-            justify-content: space-between; /* left at right alignment */
-            align-items: center;
-            padding: 10px 50px;
-            background-color: #f2f2f2;
-        }
-        .nav-left a,
-        .nav-right a {
+        
+        .nav-links a {
+            color: white;
             text-decoration: none;
-            margin: 0 10px;
-            font-weight: bold;
-            color: #333;
+            font-size: 1rem;
         }
-        .nav-left a:hover,
-        .nav-right a:hover {
-            color: #007BFF;
+        
+        .nav-links a:hover {
+            color: #bdc3c7;
+        }
+        
+        .main-content {
+            padding: 3rem 0;
+            min-height: 70vh;
+        }
+        
+        .page-title {
+            font-size: 2.5rem;
+            font-weight: 300;
+            margin-bottom: 1.5rem;
+            color: #2c3e50;
+        }
+        
+        .content-text {
+            color: #666;
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;">Welcome to the Homepage</h1>
-    <nav>
-        <div class="nav-left">
-            <a href="<?= base_url('/') ?>">Home</a>
-            <a href="<?= base_url('about') ?>">About</a>
-            <a href="<?= base_url('contact') ?>">Contact</a>
+
+
+    <!-- Top Header -->
+    <header class="top-header">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="site-title">MyPortal</h1>
+
+                <nav>
+                     <ul class="nav-links">
+   <li><a href="<?= base_url('dashboard') ?>">Dashboard</a></li>
+                        <li><a href="<?= base_url('about') ?>">About</a></li>
+                        <li><a href="<?= base_url('contact') ?>">Contact</a></li>
+</ul>
+                </nav>
+                
+            </div>
         </div>
-        <div class="nav-right">
-            <a href="<?= base_url('login') ?>">Login</a>
-            <a href="<?= base_url('register') ?>">Register</a>
-        </div>
-    </nav>
-    <p style="text-align: center;">This is the homepage content.</p>
+    </header>
+
+  <!-- Main Content -->
+  <h1>Home</h1>
+      <p>Welcome to My home page</p>
+
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,192 @@
+CRITICAL - 2025-10-02 12:34:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-02 12:42:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-02 12:42:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-02 12:42:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-02 12:42:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-02 12:42:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-02 12:42:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-02 12:42:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-02 12:42:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-02 12:42:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-02 12:42:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-02 12:42:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-02 12:42:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-02 12:50:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/about.php"
+[Method: GET, Route: about]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/about.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/about', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('home/about')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-02 12:50:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('home/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-02 13:11:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/about.php"
+[Method: GET, Route: about]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/about.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('home/about', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('home/about')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
