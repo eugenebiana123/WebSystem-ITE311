@@ -18,6 +18,8 @@ $routes->get('/dashboard', 'Auth::dashboard');
 $routes->post('/register', 'Auth::createAcc');
 $routes->get('/register/success', 'Auth::success');
 $routes->get('/announcements', 'Announcement::index');
+$routes->get('/teacher/dashboard', 'Teacher::dashboard');
+$routes->get('/admin/dashboard', 'Admin::dashboard');
 
 
 $routes->setAutoRoute(true);

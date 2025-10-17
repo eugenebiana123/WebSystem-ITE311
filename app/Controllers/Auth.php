@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\UserModel;
+use CodeIgniter\Controller;
 
 class Auth extends BaseController
 {
@@ -22,10 +23,8 @@ class Auth extends BaseController
         $data = [
             'name'         => $this->request->getPost('name'),
             'email'        => $this->request->getPost('email'),
-            'password'     => $this->request->getPost('password'),
-            'pass_confirm' => $this->request->getPost('pass_confirm'),
+            'password'     => password_hash($this->request->getPost('password'), PASSWORD_DEFAULT),
             'role'         => $this->request->getPost('role'),
-
         ];
 
         if (! $users->save($data)) {
@@ -51,34 +50,41 @@ class Auth extends BaseController
         return view('auth/login');
     }
 
-    // 🔹 Login authentication
+    // 🔹 Login authentication with role-based redirection
     public function login()
     {
         $session = session();
-        $users   = new UserModel();
+        $userModel = new UserModel();
 
         $email    = $this->request->getPost('email');
         $password = $this->request->getPost('password');
 
-        $user = $users->where('email', $email)->first();
+        $user = $userModel->where('email', $email)->first();
 
-        if ($user) {
-            if (password_verify($password, $user['password'])) {
-                $sessionData = [
-                    'id'         => $user['id'],
-                    'name'       => $user['name'],
-                    'email'      => $user['email'],
-                    'role'       => $user['role'],
-                    'isLoggedIn' => true,
-                ];
-                $session->set($sessionData);
+        if ($user && password_verify($password, $user['password'])) {
+            // ✅ Set session
+            $session->set([
+                'user_id'    => $user['id'],
+                'name'       => $user['name'],
+                'email'      => $user['email'],
+                'role'       => $user['role'],
+                'isLoggedIn' => true,
+            ]);
 
-                return redirect()->to('/dashboard');
-            } else {
-                return redirect()->back()->with('error', 'Wrong password.');
+            // ✅ Redirect by role
+            switch ($user['role']) {
+                case 'student':
+                    return redirect()->to('/announcements');
+                case 'teacher':
+                    return redirect()->to('/teacher/dashboard');
+                case 'admin':
+                    return redirect()->to('/admin/dashboard');
+                default:
+                    return redirect()->to('/dashboard');
             }
         } else {
-            return redirect()->back()->with('error', 'Email not found.');
+            $session->setFlashdata('error', 'Invalid email or password.');
+            return redirect()->back();
         }
     }
 
@@ -89,7 +95,7 @@ class Auth extends BaseController
         return redirect()->to('/login');
     }
 
-    // 🔹 Dashboard redirection based on role
+    // 🔹 General dashboard redirection (optional)
     public function dashboard()
     {
         if (! session()->get('isLoggedIn')) {
@@ -100,6 +106,10 @@ class Auth extends BaseController
 
         if ($role === 'admin') {
             return view('auth/admin_dashboard');
+        } elseif ($role === 'teacher') {
+            return view('teacher_dashboard');
+        } elseif ($role === 'student') {
+            return view('announcements');
         } else {
             return view('auth/dashboard');
         }
